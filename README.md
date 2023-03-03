@@ -10,4 +10,10 @@ gh pr create
 
 # same, but change the branch you are mergin into
 gh pr create --base=next
+
+# list all pull requests in the repo
+# alias: gh pr ls
+gh pr list
+
+gh pr status
 ```
