@@ -5,7 +5,7 @@ export interface ButtonProps {
 }
 
 const Button = ({ children }: ButtonProps) => {
-  return <button type="button">children</button>;
+  return <button type="button">{children}</button>;
 };
 
 export default Button;
