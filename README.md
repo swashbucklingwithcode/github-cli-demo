@@ -39,3 +39,18 @@ gh repo view awslabs/aws-shell
 # print out JSON of the comma-separated properties for a given repo
 gh repo view awslabs/aws-shell --json watchers,createdAt,updatedAt,stargazerCount,latestRelease
 ```
+
+### Gists
+```
+# create gist from a file with a description
+gh gist create ./context-compose.jsx -d "Composing React Context example that Scott T. showed"
+
+# list all your gists
+gh gist list
+
+# print the contents of a gist out in the terminal
+gh gist view f0c88ccaebdc28781cd3d2f90160ac96
+
+# clone a gist into a folder by id
+gh gist clone f0c88ccaebdc28781cd3d2f90160ac96 ./src/gists
+```
