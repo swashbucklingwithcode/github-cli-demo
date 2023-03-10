@@ -6,6 +6,6 @@ import Button from "./Button";
 describe("Button", () => {
   test("Button should render", () => {
     const { container } = render(<Button>Testing a Button</Button>);
-    expect(container).toHaveTextContent("Testing a Button");
+    expect(container).toHaveTextContent("Tesing a Button");
   });
 });
